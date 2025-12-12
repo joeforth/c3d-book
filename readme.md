@@ -14,4 +14,4 @@ The requirements_conda[_mac].txt files might also work to create a conda environ
 
 but using the yaml file via the earlier command is probably less likely to cause issues.
 
-The book is based on the original version by Sam Chong who still owns the copyright © 2024-25 Sam Chong and is released under under the CC BY-NC-SA 4.0
+The book is based on the original version by Sam Chong who still owns the copyright © 2024-25 Sam Chong and is released under under the CC BY-NC-SA 4.0.
