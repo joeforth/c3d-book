@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:3000/sitemap_style.xsl" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:3000</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/chem-data/descriptors-similarity</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/chem-data/fingerprints</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/chem-data/spectrum-analysis</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/chem-data/least-squares-opt</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/data-fundamentals/eda</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/data-fundamentals/eda-visualisation</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/workshop-files/eda-workshop</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/ml-intro/ml-intro</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/ml-intro/ml-demo</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/workshop-files/lab-data-structure</loc>
+  </url>
+</urlset>
