@@ -1,0 +1,50 @@
+version: 1
+project:
+  title: CHEM502 - Chemical Data, Discovery and Design
+  authors:
+    - name: Sam Chong
+  exclude:
+    - _build
+    - Thumbs.db
+    - .DS_Store
+    - '**.ipynb_checkpoints'
+  github: drsamchong/c3d-book
+  thebe:
+    binder:
+      repo: drsamchong/c3d-book
+      provider: github
+      url: https://mybinder.org
+      ref: main
+  bibliography:
+    - references.bib
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/book.pdf
+  toc:
+    - file: intro.md
+    - title: Chemical data
+      children:
+        - file: 1-chem_data\descriptors-similarity.md
+          children:
+            - file: 1-chem_data\fingerprints.ipynb
+        - file: 1-chem_data\spectrum_analysis.ipynb
+          children:
+            - file: 1-chem_data\least_squares_opt.md
+    - title: Data fundamentals
+      children:
+        - file: 2-data_fundamentals\eda.md
+        - file: 2-data_fundamentals\eda_visualisation.ipynb
+        - file: workshop_files\eda_workshop.ipynb
+    - title: Intro to ML
+      children:
+        - file: 3-ml_intro\ml_intro.md
+        - file: 3-ml_intro\ML_demo.ipynb
+    - title: Data in the digital chemistry lab
+      children:
+        - file: workshop_files\lab_data_structure.ipynb
+site:
+  options:
+    logo: assets/images/c3d_logo_white.png
+    folders: true
+  template: book-theme
